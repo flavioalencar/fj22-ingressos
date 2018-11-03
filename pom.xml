@@ -8,6 +8,12 @@
     <artifactId>ingresso</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+<developers>
+	<developer>
+		<name>Flavio Alencar</name>
+		<email>flavio@example.com</email>
+	</developer>
+</developers>
 
 
     <properties>
