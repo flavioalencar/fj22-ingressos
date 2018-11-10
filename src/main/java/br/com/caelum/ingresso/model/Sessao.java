@@ -58,4 +58,22 @@ public class Sessao {
 	public void setSala(Sala sala) {
 		this.sala = sala;
 	}
+
+	public LocalTime getHorario() {
+		return horario;
+	}
+
+	public void setHorario(LocalTime horario) {
+		this.horario = horario;
+	}
+
+	public Filme getFilme() {
+		return filme;
+	}
+
+	public void setFilme(Filme filme) {
+		this.filme = filme;
+	}
+	
+	
 }

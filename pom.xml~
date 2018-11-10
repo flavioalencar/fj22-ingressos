@@ -8,6 +8,12 @@
     <artifactId>ingresso</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+<developers>
+	<developer>
+		<name>Flavio Alencar</name>
+		<email>flavio@example.com</email>
+	</developer>
+</developers>
 
 
     <properties>
@@ -116,6 +122,12 @@
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
             <version>1.5.6</version>
+        </dependency>
+
+	<dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
         </dependency>
 
     </dependencies>
